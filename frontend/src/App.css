@@ -1,0 +1,65 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.subtitle {
+  color: #646cff;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.candidate-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.candidate-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.candidate-card:hover {
+  transform: translateY(-5px);
+}
+
+.vote-count {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #4CAF50;
+}
+
+.label {
+  font-size: 1rem;
+  color: #888;
+}
+
+.vote-btn {
+  width: 100%;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vote-btn:hover {
+  background-color: #535bf2;
+}
+
+.vote-btn:active {
+  transform: scale(0.95);
+}
